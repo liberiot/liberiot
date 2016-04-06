@@ -1,0 +1,105 @@
+{
+  developer : "panStamp",
+  product : "Binary/PWM output module",
+  pwrdownmode : "true",
+  registers :
+  [
+    {
+      id : 7,
+      endpoints :
+      [
+        {
+          name : "Binary output 0",
+          type : "bool",
+          dir : "output",
+          size : 0.1,
+          pos : 0.7,
+        },
+        {
+          name : "Binary output 1",
+          type : "bool",
+          dir : "output",
+          size : 0.1,
+          pos : 0.6,
+        },
+        {
+          name : "Binary output 2",
+          type : "bool",
+          dir : "output",
+          size : 0.1,
+          pos : 0.5,
+        },
+        {
+          name : "Binary output 3",
+          type : "bool",
+          dir : "output",
+          size : 0.1,
+          pos : 0.4,
+        },
+        {
+          name : "Binary output 4",
+          type : "bool",
+          dir : "output",
+          size : 0.1,
+          pos : 0.3,
+        },
+        {
+          name : "Binary output 5",
+          type : "bool",
+          dir : "output",
+          size : 0.1,
+          pos : 0.2,
+        },
+        {
+          name : "Binary output 6",
+          type : "bool",
+          dir : "output",
+          size : 0.1,
+          pos : 0.1,
+        },
+        {
+          name : "Binary output 7",
+          type : "bool",
+          dir : "output",
+          size : 0.1,
+          pos : 0.0,
+        }
+      ]
+    },
+    {
+      id : 8,
+      endpoints :
+      [
+        {
+          name : "PWM output 0",
+          type : "int",
+          dir : "output",
+          size : 1,
+          pos : 3,
+        },
+        {
+          name : "PWM output 1",
+          type : "int",
+          dir : "output",
+          size : 1,
+          pos : 2,
+        },
+        {
+          name : "PWM output 2",
+          type : "int",
+          dir : "output",
+          size : 1,
+          pos : 1,
+        },
+        {
+          name : "PWM output 3",
+          type : "int",
+          dir : "output",
+          size : 1,
+          pos : 0,
+        }
+      ]
+    }
+  ]
+}
+
