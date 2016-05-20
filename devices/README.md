@@ -10,4 +10,5 @@
 * [00010032](https://github.com/liberiot/liberiot/blob/master/00010032.json) - Single-input binary sensor
 * [00010033](https://github.com/liberiot/liberiot/blob/master/00010033.json) - Range/level finder with temperature sensor
 * [00010034](https://github.com/liberiot/liberiot/blob/master/00010034.json) - 8-input binary sensor
+* [00010035](https://github.com/liberiot/liberiot/blob/master/00010035.json) - 8-input/2-output binary module
 
