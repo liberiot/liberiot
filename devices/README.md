@@ -3,8 +3,10 @@
 ## Manufacturer : LIBERiot/panStamp
 
 * [00010001](https://github.com/liberiot/liberiot/blob/master/00010001.json) - Dual Temperature-Humidity sensor
+* [00010003](https://github.com/liberiot/liberiot/blob/master/00010003.json) - RGB driver
 * [00010004](https://github.com/liberiot/liberiot/blob/master/00010004.json) - Temperature sensor
-* [00010007](https://github.com/liberiot/liberiot/blob/master/00010007.json) - Binary/PWM output module
+* [00010007](https://github.com/liberiot/liberiot/blob/master/00010007.json) - Binary/PWM output module (single register version)
+* [0001000C](https://github.com/liberiot/liberiot/blob/master/0001000C.json) - Binary/PWM output module (multiple register version)
 * [00010012](https://github.com/liberiot/liberiot/blob/master/00010012.json) - 3-channel current meter with temperature sensor
 * [00010013](https://github.com/liberiot/liberiot/blob/master/00010004.json) - Motion, vibration and temperature sensor
 * [00010032](https://github.com/liberiot/liberiot/blob/master/00010032.json) - Single-input binary sensor
