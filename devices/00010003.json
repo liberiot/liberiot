@@ -1,0 +1,43 @@
+{
+  developer : "panStamp",
+  product : "RGB driver",
+  pwrdownmode : "false",
+  registers :
+  [
+    {
+      id : 7,
+      endpoints :
+      [
+        {
+          name : "RGB level",
+          type : "int",
+          dir : "output",
+          size : 3,
+          pos : 0,
+        },
+        {
+          name : "Red",
+          type : "int",
+          dir : "output",
+          size : 1,
+          pos : 0,
+        },
+        {
+          name : "Green",
+          type : "int",
+          dir : "output",
+          size : 1,
+          pos : 1,
+        },
+        {
+          name : "Blue",
+          type : "int",
+          dir : "output",
+          size : 1,
+          pos : 2,
+        }
+      ]
+    }
+  ]
+}
+
