@@ -1,7 +1,7 @@
 {
   developer : "panStamp",
   product : "8-input/2-output binary module",
-  pwrdownmode : "true",
+  pwrdownmode : "false",
   registers :
   [
     {

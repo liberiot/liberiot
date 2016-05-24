@@ -1,7 +1,7 @@
 {
   developer : "panStamp",
   product : "Binary/PWM output module",
-  pwrdownmode : "true",
+  pwrdownmode : "false",
   registers :
   [
     {
