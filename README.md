@@ -17,7 +17,13 @@ LIBERiot compatible motes can be made from low-cost radios and microcontrollers.
 
 #### THE RADIO
 
-LIBERiot's official wireless protocl is GWAP. Global Wireless Abstract Protocol is used between motes and gateways to transport sensor and actuator information. Wireless devices and gateways transmit at 968/902 MHz, allowing communication distances beyond one kilometer.
+LIBERiot's official wireless protocol is GWAP. Global Wireless Abstract Protocol is used between motes and gateways to transport sensor and actuator information. Wireless devices and gateways can transmit at any of the following frequency ranges:
+
+430-435 MHz
+863-873 MHz
+902-928 MHz
+
+Being all frequencies below 1 GHz, long communication distances can be achieved, typically between 0.5 and 5 Km in open spaces depending on lign of sight and transmission power. Another good thing about GWAP is that it can be implemented on almost any low-power/low-cost radio.
 
 #### THE SERVER
 
