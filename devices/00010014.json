@@ -53,35 +53,35 @@
           type : "bool",
           dir : "input",
           size : 0.1,
-          pos : 4.7,
+          pos : 4.0,
         },
         {
           name : "binary input 0",
           type : "bool",
           dir : "input",
           size : 0.1,
-          pos : 4.3,
+          pos : 4.4,
         },
         {
           name : "binary input 1",
           type : "bool",
           dir : "input",
           size : 0.1,
-          pos : 4.2,
+          pos : 4.5,
         },
         {
           name : "binary input 2",
           type : "bool",
           dir : "input",
           size : 0.1,
-          pos : 4.1,
+          pos : 4.6,
         },
         {
           name : "binary input 3",
           type : "bool",
           dir : "input",
           size : 0.1,
-          pos : 4.0,
+          pos : 4.7,
         }
       ]
     }
