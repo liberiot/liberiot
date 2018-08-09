@@ -83,7 +83,7 @@
           type : "float",
           dir : "input",
           size : 2,
-          pos : 2,
+          pos : 8,
           units :
           [
             {
