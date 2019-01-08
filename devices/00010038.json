@@ -1,6 +1,6 @@
 {
   "developer" : "panStamp",
-  "product" : "Temperature-Humidity, light and (capacitive) soil moisture sensor",
+  "product" : "Indoor Air Quality meter (T+H+P+VOC)",
   "pwrdownmode" : "true",
   "registers" :
   [
@@ -64,31 +64,41 @@
           ]
         },
         {
-          "name" : "Light",
+          "name" : "Pressure",
           "type" : "float",
           "dir" : "input",
-          "size" : 2,
+          "size" : 4,
           "pos" : 6,
           "units" :
           [
             {
-              "name" : "lux",
+              "name" : "Pa",
               "factor" : 1,
+              "offset" : 0
+            },
+            {
+              "name" : "mbar",
+              "factor" : 0.01,
+              "offset" : 0
+            },
+            {
+              "name" : "bar",
+              "factor" : 0.00001,
               "offset" : 0
             }
           ]
         },
         {
-          "name" : "Moisture",
+          "name" : "VOC",
           "type" : "float",
           "dir" : "input",
-          "size" : 2,
-          "pos" : 8,
+          "size" : 4,
+          "pos" : 10,
           "units" :
           [
             {
-              "name" : "%",
-              "factor" : 0.0488,
+              "name" : "KOhm",
+              "factor" : 0.001,
               "offset" : 0
             }
           ]

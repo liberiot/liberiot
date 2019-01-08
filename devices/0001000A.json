@@ -1,6 +1,6 @@
 {
   "developer" : "panStamp",
-  "product" : "Temperature-Humidity, light and (capacitive) soil moisture sensor",
+  "product" : "CO2 + Humidity + temperature + light sensor",
   "pwrdownmode" : "true",
   "registers" :
   [
@@ -79,20 +79,20 @@
           ]
         },
         {
-          "name" : "Moisture",
-          "type" : "float",
+          "name" : "CO2",
+          "type" : "int",
           "dir" : "input",
           "size" : 2,
           "pos" : 8,
           "units" :
           [
             {
-              "name" : "%",
-              "factor" : 0.0488,
+              "name" : "ppm",
+              "factor" : 1,
               "offset" : 0
             }
           ]
-        }
+        },
       ]
     }
   ]

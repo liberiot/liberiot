@@ -1,6 +1,6 @@
 {
   "developer" : "panStamp",
-  "product" : "Dual Temperature-Humidity and light sensor",
+  "product" : "Water meter (consumption + pressure)",
   "pwrdownmode" : "true",
   "registers" :
   [
@@ -24,47 +24,22 @@
           ]
         },
         {
-          "name" : "Temperature",
+          "name" : "Consumption",
           "type" : "float",
           "dir" : "input",
-          "size" : 2,
+          "size" : 4,
           "pos" : 2,
           "units" :
           [
             {
-              "name" : "C",
-              "factor" : 0.1,
-              "offset" : -50
-            },
-            {
-              "name" : "F",
-              "factor" : 0.18,
-              "offset" : -58
-            },
-            {
-              "name" : "K",
-              "factor" : 0.1,
-              "offset" : 223.15
-            }
-          ]
-        },
-        {
-          "name" : "Humidity",
-          "type" : "float",
-          "dir" : "input",
-          "size" : 2,
-          "pos" : 4,
-          "units" :
-          [
-            {
-              "name" : "%",
-              "factor" : 0.1,
+              "name" : "l",
+              "factor" : 0.001,
               "offset" : 0
             }
           ]
         },
         {
-          "name" : "Light",
+          "name" : "Pressure",
           "type" : "float",
           "dir" : "input",
           "size" : 2,
@@ -72,7 +47,7 @@
           "units" :
           [
             {
-              "name" : "lux",
+              "name" : "kPa",
               "factor" : 1,
               "offset" : 0
             }

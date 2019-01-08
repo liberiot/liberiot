@@ -1,6 +1,6 @@
 {
   "developer" : "panStamp",
-  "product" : "Temperature-Humidity, light and (capacitive) soil moisture sensor",
+  "product" : "Dual temperature sensor",
   "pwrdownmode" : "true",
   "registers" :
   [
@@ -24,7 +24,7 @@
           ]
         },
         {
-          "name" : "Temperature",
+          "name" : "Temperature 1",
           "type" : "float",
           "dir" : "input",
           "size" : 2,
@@ -49,7 +49,7 @@
           ]
         },
         {
-          "name" : "Humidity",
+          "name" : "Temperature 2",
           "type" : "float",
           "dir" : "input",
           "size" : 2,
@@ -57,39 +57,19 @@
           "units" :
           [
             {
-              "name" : "%",
+              "name" : "C",
               "factor" : 0.1,
-              "offset" : 0
-            }
-          ]
-        },
-        {
-          "name" : "Light",
-          "type" : "float",
-          "dir" : "input",
-          "size" : 2,
-          "pos" : 6,
-          "units" :
-          [
+              "offset" : -50
+            },
             {
-              "name" : "lux",
-              "factor" : 1,
-              "offset" : 0
-            }
-          ]
-        },
-        {
-          "name" : "Moisture",
-          "type" : "float",
-          "dir" : "input",
-          "size" : 2,
-          "pos" : 8,
-          "units" :
-          [
+              "name" : "F",
+              "factor" : 0.18,
+              "offset" : -58
+            },
             {
-              "name" : "%",
-              "factor" : 0.0488,
-              "offset" : 0
+              "name" : "K",
+              "factor" : 0.1,
+              "offset" : 223.15
             }
           ]
         }
