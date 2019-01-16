@@ -1,7 +1,7 @@
 {
   "developer" : "panStamp",
   "product" : "CO2 + Humidity + temperature + light sensor",
-  "pwrdownmode" : "false",
+  "pwrdownmode" : "true",
   "registers" :
   [
     {
