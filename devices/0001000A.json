@@ -94,6 +94,19 @@
           ]
         },
       ]
+    },
+    {
+      "id" : 8,
+      "endpoints" :
+      [
+        {
+          "name" : "Calibrate",
+          "type" : "bool",
+          "dir" : "output",
+          "size" : 1,
+          "pos" : 0
+        }
+      ]
     }
   ]
 }
