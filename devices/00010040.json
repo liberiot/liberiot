@@ -1,7 +1,7 @@
 {
   "developer" : "panStamp",
   "product" : "Water meter (consumption + pressure)",
-  "pwrdownmode" : "true",
+  "pwrdownmode" : "false",
   "registers" :
   [
     {
